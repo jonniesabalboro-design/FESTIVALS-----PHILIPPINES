@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Festival Philippines - Festivals</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #fffdf5;
+        }
+
+        header {
+            background: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 38px;
+            font-weight: bold;
+            color: #123f78;
+        }
+
+        .logo span {
+            color: #d72e2e;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin: 15px;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        nav a:hover {
+            color: #23743c;
+        }
+
+        h1 {
+            text-align: center;
+            color: #23743c;
+            font-size: 40px;
+        }
+
+        .festival {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            display: flex;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px #ddd;
+        }
+
+        .festival img {
+            width: 35%;
+            object-fit: cover;
+        }
+
+        .info {
+            padding: 20px;
+        }
+
+        .info h2 {
+            color: #23743c;
+        }
+
+        .registration {
+            width: 70%;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 2px 10px #ccc;
+        }
+
+        .registration h2 {
+            text-align: center;
+            color: #123f78;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 18px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        .submit {
+            background: #f5a900;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        footer {
+            background: #07366b;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        Festival <span>PHILIPPINES</span>
+    </div>
+
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="festivals.html">FESTIVALS</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="about.html">ABOUT</a>
+    </nav>
+
+</header>
+
+<h1>OUR FESTIVALS</h1>
+
+<p style="text-align:center;">
+    Discover the most popular festivals in the Philippines.
+</p>
+
+
+<div class="festival">
+
+    <img src="image1.jpeg">
+    <div class="info">
+
+        <h2>SINULOG FESTIVAL</h2>
+
+        <p>📍 Cebu City, Cebu</p>
+
+        <p>📅 3rd Sunday of January</p>
+
+        <p>
+            A grand celebration in honor of the Santo Niño.
+            It features street dancing, parades, and fluvial processions.
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="festival">
+
+    <img src="image2.jpeg">
+
+    <div class="info">
+
+        <h2 style="color:#c52d2d;">ATI-ATIHAN FESTIVAL</h2>
+
+        <p>📍 Kalibo, Aklan</p>
+
+        <p>📅 3rd Sunday of January</p>
+
+        <p>
+            Known as the Mother of All Philippine Festivals.
+            People paint their faces and dance to lively drums.
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="festival">
+
+    <img src="image3.jpeg">
+
+    <div class="info">
+
+        <h2 style="color:#efa900;">DINAGYANG FESTIVAL</h2>
+
+        <p>📍 Iloilo City, Iloilo</p>
+
+        <p>📅 4th Sunday of January</p>
+
+        <p>
+            A thanksgiving festival for a bountiful harvest.
+            It showcases vibrant street dancing competitions.
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="festival">
+
+    <img src="image4.jpeg">
+
+    <div class="info">
+
+        <h2 style="color:#b62964;">PANAGBENGA FESTIVAL</h2>
+
+        <p>📍 Baguio City, Benguet</p>
+
+        <p>📅 February</p>
+
+        <p>
+            Also known as the Baguio Flower Festival.
+            It features beautiful floats, flowers, and street dancing.
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="festival">
+
+    <img src="image5.jpeg">
+
+    <div class="info">
+
+        <h2 style="color:#155495;">KADAYAWAN FESTIVAL</h2>
+
+        <p>📍 Davao City, Davao del Sur</p>
+
+        <p>📅 August</p>
+
+        <p>
+            A celebration of life, culture, and bountiful harvest.
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="registration">
+
+    <h2>FESTIVAL REGISTRATION</h2>
+
+    <p style="text-align:center;">
+        Register here if you want to attend one of our featured festivals.
+    </p>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter your phone number">
+
+        <label>Select Festival</label>
+
+        <select required>
+
+            <option value="">Choose a festival</option>
+            <option>Sinulog Festival</option>
+            <option>Ati-Atihan Festival</option>
+            <option>Dinagyang Festival</option>
+            <option>Panagbenga Festival</option>
+            <option>Kadayawan Festival</option>
+
+        </select>
+
+        <label>Number of People</label>
+
+        <input type="number" min="1" placeholder="Number of attendees" required>
+
+        <label>Preferred Date</label>
+
+        <input type="date" required>
+
+        <label>Message</label>
+
+        <textarea rows="4" placeholder="Additional message"></textarea>
+
+        <button class="submit" type="submit">
+            REGISTER NOW
+        </button>
+
+    </form>
+
+</div>
+
+
+<footer>
+    Celebrating the Culture and Colors of the Philippines!
+</footer>
+
+</body>
+</html>
